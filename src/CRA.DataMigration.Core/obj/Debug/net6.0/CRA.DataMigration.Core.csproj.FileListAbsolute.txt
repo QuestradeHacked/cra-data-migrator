@@ -1,0 +1,12 @@
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/bin/Debug/net6.0/CRA.DataMigration.Core.deps.json
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/bin/Debug/net6.0/CRA.DataMigration.Core.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/bin/Debug/net6.0/CRA.DataMigration.Core.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.csproj.AssemblyReference.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.AssemblyInfoInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.AssemblyInfo.cs
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.csproj.CoreCompileInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/refint/CRA.DataMigration.Core.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/CRA.DataMigration.Core.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigration.Core/obj/Debug/net6.0/ref/CRA.DataMigration.Core.dll

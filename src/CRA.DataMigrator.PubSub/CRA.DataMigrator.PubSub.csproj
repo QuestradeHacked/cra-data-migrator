@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="DogStatsD-CSharp-Client" Version="7.0.1" />
+        <PackageReference Include="Questrade.Library.PubSubClientHelper" Version="3.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CRA.DataMigration.Core\CRA.DataMigration.Core.csproj" />
+    </ItemGroup>
+
+</Project>

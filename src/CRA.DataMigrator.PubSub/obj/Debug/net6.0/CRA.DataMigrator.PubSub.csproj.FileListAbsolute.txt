@@ -1,0 +1,15 @@
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/bin/Debug/net6.0/CRA.DataMigrator.PubSub.deps.json
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/bin/Debug/net6.0/CRA.DataMigrator.PubSub.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/bin/Debug/net6.0/CRA.DataMigrator.PubSub.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/bin/Debug/net6.0/CRA.DataMigration.Core.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/bin/Debug/net6.0/CRA.DataMigration.Core.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.csproj.AssemblyReference.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.GeneratedMSBuildEditorConfig.editorconfig
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.AssemblyInfoInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.AssemblyInfo.cs
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.csproj.CoreCompileInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.csproj.CopyComplete
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/refint/CRA.DataMigrator.PubSub.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/CRA.DataMigrator.PubSub.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/CRA.DataMigrator.PubSub/obj/Debug/net6.0/ref/CRA.DataMigrator.PubSub.dll

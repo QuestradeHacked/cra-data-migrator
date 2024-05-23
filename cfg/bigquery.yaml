@@ -1,0 +1,27 @@
+bigquery:
+  env:
+    sit:
+      datasets:
+        - name: "customerriskassessment_raw"
+          allowed_services:
+           - name: "cra-data-migrator"
+             access_type: "writer"
+        - name: "customerriskassessment_raw_dev"
+      access:
+        owner:
+          - group:questrade-scrumteam-tmj@questrade.com
+    uat:
+      datasets:
+        - name: "customerriskassessment_raw"
+          allowed_services:
+           - name: "cra-data-migrator"
+             access_type: "writer"
+      access:
+        reader:
+          - group:questrade-scrumteam-tmj@questrade.com
+    prod:
+      datasets:
+        - name: "customerriskassessment_raw"
+          allowed_services:
+           - name: "cra-data-migrator"
+             access_type: "writer"

@@ -1,0 +1,56 @@
+environment_variables:
+    ASPNETCORE_ENVIRONMENT: $(ENV)
+
+    # Global log configuration
+    LOG_LEVEL: "Warning"
+    Logging__IncludeScopes: "true"
+    Serilog__MinimumLevel__Default: $(LOG_LEVEL)
+    
+    # Microsoft log level overrides
+    Serilog__MinimumLevel__Override__System: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.Hosting.Lifetime: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.AspNetCore: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Mvc: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Authentication: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Identity: "Warning"
+    Serilog__MinimumLevel__Override__Microsoft.AspNetCore.Session.SessionMiddleware: "Error"
+    
+    # Serilog sinks (outputs) and configuration
+    Serilog__WriteTo__0__Name: "Console"
+    Serilog__WriteTo__0__Args__formatter: "Serilog.Formatting.Json.JsonFormatter"
+
+    Serilog__Enrich__0: "FromLogContext"
+    Serilog__Enrich__1: "WithMachineName"
+    Serilog__Enrich__2: "WithThreadId"
+    Serilog__Enrich__3: "WithExceptionDetails"
+
+    CustomerMasterDataProviderConfig__Resilience__RetryCount: 3
+    CustomerMasterDataProviderConfig__Resilience__TimeBetweenRetryInMilliseconds: 200
+
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__Enable: true
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__UseEmulator: false
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__ProjectId: $(GOOGLE_CLOUD_PROJECT_ID)
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__SubscriptionId: system.customer-risk-assessment.risk-scores-internal.updated-1.0.$(ENV).cra-data-migrator
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__SubscriberClientCount: 10
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__AcknowledgeDeadline: 0.00:00:30
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__AcknowledgeExtensionWindow: 0.00:00:10
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__MaximumOutstandingElementCount: 1
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__MaximumOutstandingByteCount: 1
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__ShouldForwardErrors: true
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__UniqueIdentifier: risk-scores.updated.subscriber
+    GooglePubSub__Subscribers__RiskScoreChangedMessage__ShowPii: false
+
+    GooglePubSub__Subscribers__ErrorHandler__MaxRetryCount: 3
+    GooglePubSub__Subscribers__ErrorHandler__FailedQueueMessagesCacheTimeInMinutes: 3
+
+    # DataDog 
+    DataDogMetricsConfig__Host: $(DD_AGENT_HOST)
+    DataDogMetricsConfig__Prefix: $(APP_NAME)
+
+    FirestoreConfig__ProjectId: $(FIRESTORE_PROJECT)
+
+    # BigQuery
+    BigQueryConfig__ProjectID: $(BIGQUERY_PROJECT)
+    BigQueryConfig__DatasetName: customerriskassessment_raw
+    BigQueryConfig__TableName: risk_ratings

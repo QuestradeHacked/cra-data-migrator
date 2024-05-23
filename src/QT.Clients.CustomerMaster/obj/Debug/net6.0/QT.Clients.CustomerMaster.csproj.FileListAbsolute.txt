@@ -1,0 +1,15 @@
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/bin/Debug/net6.0/QT.Clients.CustomerMaster.deps.json
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/bin/Debug/net6.0/QT.Clients.CustomerMaster.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/bin/Debug/net6.0/QT.Clients.CustomerMaster.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/bin/Debug/net6.0/CRA.DataMigration.Core.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/bin/Debug/net6.0/CRA.DataMigration.Core.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.csproj.AssemblyReference.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.GeneratedMSBuildEditorConfig.editorconfig
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.AssemblyInfoInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.AssemblyInfo.cs
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.csproj.CoreCompileInputs.cache
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.csproj.CopyComplete
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/refint/QT.Clients.CustomerMaster.dll
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/QT.Clients.CustomerMaster.pdb
+/Users/015756/Documents/Projects/cra-data-migrator/src/QT.Clients.CustomerMaster/obj/Debug/net6.0/ref/QT.Clients.CustomerMaster.dll

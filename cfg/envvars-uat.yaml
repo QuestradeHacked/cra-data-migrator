@@ -1,0 +1,4 @@
+environment_variables:
+  LOG_LEVEL: "Information"
+  
+  CustomerMasterDataProviderConfig__BaseUrl: https://customer-master-data.uat.q3.questech.io

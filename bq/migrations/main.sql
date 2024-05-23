@@ -1,0 +1,1 @@
+--include {bq/migrations/customerriskassessment_raw/customerriskassessment_raw.sql}

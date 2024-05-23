@@ -1,0 +1,5 @@
+environment_variables:
+  LOG_LEVEL: "Warning"
+
+  GooglePubSub__Subscribers__RiskScoreChangedMessage__SubscriptionId: system.customer-risk-assessment.risk-scores-internal.updated-1.0.cra-data-migrator
+  CustomerMasterDataProviderConfig__BaseUrl: https://cmdp.svc.questrade.com

@@ -1,0 +1,52 @@
+service_name: cra-data-migrator
+stack: dotnetcore
+owner: tmj
+
+firestore:
+  enabled: true
+  env:
+    sit:
+      name: cra-db-migrator-fs-sit
+    uat:
+      name: cra-migrator-fs-uat
+    prod:
+      name: cra-migrator-fs-prod
+
+bigquery:
+  enabled: true
+
+pubsubs_to_subscribe:
+  - name: system.customer-risk-assessment.risk-scores-internal.updated-1.0
+    deadLetter:
+      enabled: true
+      maxDeliveryAttempts: 5
+    retryPolicy:
+      minimumBackoff: 5s
+      maximumBackoff: 300s
+
+notification_channels:
+  - digital-banking-devops
+
+notification_emails:
+  - questrade-scrumteam-tmj@questrade.com
+
+business_line:
+  name: enterprise
+  product: customers
+  domain: customer-risk-assessment
+
+release_managers:
+  users:
+    - dmohan@questrade.com
+    - igtanure@questrade.com
+    - jhasse@questrade.com
+    - lrogerio@questrade.com
+    - rgasparotto@questrade.com
+    - spotasio@questrade.com
+    - wantunes@questrade.com
+
+rbac:
+  env:
+    sit:
+      groups:
+        - questrade-scrumteam-tmj@questrade.com

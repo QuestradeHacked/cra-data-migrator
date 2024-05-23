@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CRA.DataMigration.Core\CRA.DataMigration.Core.csproj" />
+      <ProjectReference Include="..\CRA.DataMigration.DAL\CRA.DataMigration.DAL.csproj" />
+      <ProjectReference Include="..\CRA.DataMigrator.PubSub\CRA.DataMigrator.PubSub.csproj" />
+      <ProjectReference Include="..\QT.Clients.CustomerMaster\QT.Clients.CustomerMaster.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="10.1.1" />
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+        <PackageReference Include="Questrade.Library.HealthCheck.AspNetCore" Version="2.0.1" />
+        <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+    </ItemGroup>
+
+</Project>
